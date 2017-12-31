@@ -5,7 +5,7 @@
 	
 	background-color: #233237;
 	width: 100%;
-	height: 350px;
+	height: 390px;
 	
 	color: white;
 	
@@ -22,22 +22,31 @@
 	
 	background-color: #233237;
 	width: 100%;
-	height: 850px;
+	height: 750px;
 	
 	color: white;
+
+}
+
+#meetList{padding-top: 5%;}
+
+#meetTitle{
+	 
+
+	background-color: #003366; 
+	color: white;
+	
+	width: 100%;
+	height: 90px;
+
+	font-size: 390%
 	
 }
 
-#meet h3{text-align: center;}
+#meetTitle h3{position: absolute; margin-left: 39%; }
 
-#johnny img{margin: auto; display: block; padding-top: 5%;}
+#flexContainer{display: flex; /*Allows proper positioning for element within div*/}
+#flexContainer div{border: 1px #ccc solid; padding: 60px;}
 
-#avery{
-	
-	background-color: #005c99;
-	width: 100px;
-	height: 100px;
-	
-	margin: auto; /*center object*/
-	display: block;
-}
+#meetSect{flex: 1;}
+
